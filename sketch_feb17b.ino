@@ -1,12 +1,26 @@
 #include <KeyboardBLE.h>
 #include <Arduino.h>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Define the keyboard layout
 char layout[4][5] = {
     {'q',      'w',               'f',              'p',    'b' },
     {'a',      'r',               's',              't',    'g' },
     {'z',      'x',               'c',              'd',    'v' },
-    {KEY_ESC,  KEY_LEFT_SHIFT,    KEY_LEFT_CTRL,   ' ',    KEY_BACKSPACE },
+    {KEY_ESC,  KEY_LEFT_SHIFT,    KEY_LEFT_CTRL,    ' ',    KEY_BACKSPACE },
 };
 
 // Define input and output pins
